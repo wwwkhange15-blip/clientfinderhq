@@ -1,0 +1,14 @@
+*{box-sizing:border-box}body{margin:0;background:#f6f8fa;color:#14202b;font:18px/1.7 "Source Serif 4",Georgia,serif}
+h1,h2,h3,.logo,nav a{font-family:Manrope,system-ui,sans-serif}
+header,footer{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;max-width:860px;margin:0 auto;padding:20px 20px}
+.logo{font-weight:800;font-size:20px;color:#14202b;text-decoration:none}
+nav{display:flex;gap:20px}nav a{font-weight:500;font-size:15px;color:#14202b;text-decoration:none}nav a:hover{text-decoration:underline}
+a{color:#0b6e99}a:focus-visible{outline:3px solid #0b6e99;outline-offset:3px}
+main{max-width:680px;margin:0 auto;padding:24px 20px 60px}
+h1{font-size:clamp(32px,6vw,46px);line-height:1.15;font-weight:800;margin:.4em 0 .5em}
+h2{font-size:26px;line-height:1.25;margin:1.8em 0 .4em}
+.lead{font-size:21px}
+.post{display:block;padding:18px 0;border-top:2px solid #14202b;text-decoration:none;color:inherit}
+.post h3{margin:0 0 4px;font-size:21px;color:#0b6e99}.post p{margin:0}
+blockquote{margin:1.4em 0;padding:14px 18px;background:#fff;border-left:5px solid #0b6e99;font-size:17px}
+footer{border-top:1px solid #c9d3dc;font-size:15px;margin-top:20px}
